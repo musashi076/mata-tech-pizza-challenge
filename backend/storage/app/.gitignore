@@ -2,3 +2,7 @@
 !private/
 !public/
 !.gitignore
+!orders.csv
+!order_details.csv
+!pizzas.csv
+!pizza_types.csv
