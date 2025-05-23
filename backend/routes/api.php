@@ -21,6 +21,8 @@ Route::prefix('v1')->group(function () {
         
         Route::apiResource('orders', OrderController::class)->only(['index', 'show']);
 
+        Route::get('/sales/daily', [SalesController::class, 'getDailyOrdersWithDetails']);
+        Route::get('/sales/monthly', [SalesController::class, 'getMonthlySales']);
     });
 
 });
