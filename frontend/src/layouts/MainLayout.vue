@@ -51,6 +51,12 @@ const linksList = [
     icon: 'receipt_long',
     link: '/orders',
   },
+  {
+    title: 'Daily Sales Report',
+    caption: 'View Daily Sales',
+    icon: 'assessment',
+    link: '/daily-sales-report',
+  },
 ]
 
 export default defineComponent({
