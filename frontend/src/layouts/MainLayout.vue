@@ -39,6 +39,12 @@ const linksList = [
     icon: 'dashboard',
     link: '/dashboard',
   },
+  {
+    title: 'Products',
+    caption: 'View Products',
+    icon: 'local_pizza',
+    link: '/products',
+  },
 ]
 
 export default defineComponent({
