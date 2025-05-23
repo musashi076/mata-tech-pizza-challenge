@@ -19,6 +19,8 @@ Route::prefix('v1')->group(function () {
         
         Route::apiResource('products', ProductController::class)->only(['index', 'show'])->parameters(['products' => 'pizza_id']);
         
+        Route::apiResource('orders', OrderController::class)->only(['index', 'show']);
+
     });
 
 });
