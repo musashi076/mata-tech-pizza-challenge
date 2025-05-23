@@ -66,3 +66,10 @@ The backend API will typically be accessible at `http://127.0.0.1:8000`.
 *If you are using Laravel Sail, you would start Sail (which includes the server):*
 
 ```./vendor/bin/sail up -d```
+
+Login Credentials after seeding
+
+```
+admin@pizzasales.com
+admin123
+```
