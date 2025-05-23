@@ -45,6 +45,12 @@ const linksList = [
     icon: 'local_pizza',
     link: '/products',
   },
+  {
+    title: 'Orders',
+    caption: 'View Orders',
+    icon: 'receipt_long',
+    link: '/orders',
+  },
 ]
 
 export default defineComponent({
