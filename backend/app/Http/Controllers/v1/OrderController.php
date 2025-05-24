@@ -29,8 +29,7 @@ class OrderController extends Controller
         if (!empty($filter)) {
             $query->where(function ($q) use ($filter) {
                 $q->where('orders.order_id', 'like', '%' . $filter . '%')
-                  ->orWhere('orders.date', 'like', '%' . $filter . '%')
-                  ->orWhere('orders.time', 'like', '%' . $filter . '%')
+                  ->orWhere('orders.order_date', 'like', '%' . $filter . '%')
                   ->orWhere('pizza_types.name', 'like', '%' . $filter . '%')
                   ->orWhere('pizzas.size', 'like', '%' . $filter . '%');
             });
