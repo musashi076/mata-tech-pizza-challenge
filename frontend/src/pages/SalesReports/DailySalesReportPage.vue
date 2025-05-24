@@ -49,7 +49,7 @@
     <q-table
       v-else
       title="Orders for the Day"
-      :rows="salesStore.dailyOrders"
+      :rows="salesStore.dailySales"
       :columns="columns"
       row-key="order_id"
       flat
